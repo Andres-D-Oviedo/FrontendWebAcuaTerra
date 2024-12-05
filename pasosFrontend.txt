@@ -1,0 +1,6 @@
+
+npm install -g @angular/cli
+ng new nombre-del-proyecto
+npm i --legacy-peer-deps  -para las dependencias en caso de usar versiones de angular diferentes
+cd nombre-del-proyecto
+ng serve - iniciar proyecto
