@@ -4,3 +4,9 @@ ng new nombre-del-proyecto
 npm i --legacy-peer-deps  -para las dependencias en caso de usar versiones de angular diferentes
 cd nombre-del-proyecto
 ng serve - iniciar proyecto
+
+En caso de que no funcione, puede ser porque faltan paquetes por instalar:
+npm --versión /para verificar la versión 
+npm install
+npm install @angular-devkit/build-angular --save-dev
+ng serve
